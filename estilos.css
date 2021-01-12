@@ -1,0 +1,122 @@
+body{
+    padding-top: 60px;
+}
+nav{
+	background-color: #333335;
+}
+.btn{
+	background-color: #1a1a1d;
+    color:#fff;
+}
+.btn:hover{
+	border: 2px solid #111014;
+	background-color: white;
+    color:#212122;
+}
+.text-white{
+    color:#fff;
+}
+
+.navbar-doublerow > .navbar{
+	display: block;
+	padding: 0px auto;
+	margin: 0px auto;
+	min-height: 25px;
+}
+
+.navbar-doublerow .navbar-down .navbar-brand {
+
+	padding: 0px auto;
+	float: left;
+	color: #fff;
+	font-size: 30px;
+}
+.navbar-doublerow .navbar-down ul>li>a{
+
+	font-size: 15px;
+	color: #fff;
+}
+.item:hover{	
+	border-bottom: 2px solid #fff;
+	color: #9587c5;
+}
+.navbar-doublerow .navbar-down .dropdown-toggle:hover {
+
+	border-bottom: 2px solid #fff;
+	color: #9587c5;
+}
+.dropdown-menu{
+	background-color: #1f1e20;
+
+}
+.dropdown-menu li>a:hover{
+	background-color: #1c1c1f;
+	color: #9587c5;
+}
+#resguardos{
+	border: 1px solid #000000;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 8%;
+	display: flex;
+	flex-direction: column;
+}
+.fila{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.cajon{
+	margin: 2%;	
+	border: 1px solid black;
+	text-align: center;
+	width: 100%;
+	padding: 1%;
+}
+.cajon img{
+	width: 50%;
+	margin-bottom: 5px;
+	background-color: rgb(196, 212, 196);
+}
+
+#miGrafica{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.autocomplete {
+	position: relative;
+  }
+  
+  input {
+	border: 1px solid transparent;
+	background-color: #f1f1f1;
+	padding: 10px;
+	font-size: 16px;
+  }
+.autocomplete-items {
+	position: absolute;
+	border: 1px solid #d4d4d4;
+	border-bottom: none;
+	border-top: none;
+	z-index: 99;
+	/*position the autocomplete items to be the same width as the container:*/
+	top: 100%;
+	left: 0;
+	right: 0;
+  }
+  .autocomplete-items div {
+	padding: 10px;
+	cursor: pointer;
+	background-color: #fff; 
+	border-bottom: 1px solid #d4d4d4; 
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+	background-color: #e9e9e9; 
+  }
+  .autocomplete-active {
+	background-color: rgb(9, 10, 10) !important; 
+	color: #ffffff; 
+  }
